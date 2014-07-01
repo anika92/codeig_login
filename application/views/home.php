@@ -22,7 +22,7 @@
 <div id="menu">
 <ul>
     <li><a href="" accesskey="1" title="">Blog</a></li>
-<li class="active"><a href="<?php echo base_url(); ?>index.php/welcome/galery" accesskey="2" title="">Photos</a></li>
+<li class="active"><a href="<?php echo base_url(); ?>index.php/welcome/gallery" accesskey="2" title="">Photos</a></li>
 <li><a href="#" accesskey="3" title="">Links</a></li>
 <li><a href="#" accesskey="4" title="">About</a></li>
 <li><a href="" accesskey="5" title="">Sign Up</a></li>
@@ -92,7 +92,7 @@
 </div>
 <!-- end #content -->
 <div id="footer">
-<p id="legal">Copyright © 2007 The Green House. Designed
+<p id="legal">Copyright ï¿½ 2007 The Green House. Designed
 by <a href="http://www.freecsstemplates.org/">Free CSS
 Templates</a></p>
 <p id="brand">The Green House</p>
