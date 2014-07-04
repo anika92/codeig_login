@@ -16,27 +16,27 @@
 <title>the art blog, free css template</title>
 <meta name="keywords" content="free css template, the art blog, black, dark gray" />
 <meta name="description" content="The Art Blog is a free CSS template, 2-column blog style layout" />
-<link href="css/default.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url(); ?>css/default.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="menu">
 <ul>
-    <li><a href="" accesskey="1" title="">Blog</a></li>
-<li class="active"><a href="<?php echo base_url(); ?>index.php/welcome/gallery" accesskey="2" title="">Photos</a></li>
+    <li class="active"><a href="<?php echo base_url(); ?>index.php/welcome/index.jsp" accesskey="1" title="">Blog</a></li>
+<li><a href="<?php echo base_url(); ?>index.php/welcome/gallery.jsp" accesskey="2" title="">Photos</a></li>
 <li><a href="#" accesskey="3" title="">Links</a></li>
 <li><a href="#" accesskey="4" title="">About</a></li>
-<li><a href="" accesskey="5" title="">Sign Up</a></li>
+<li><a href="<?php echo base_url(); ?>index.php/login/sign_up.jsp" accesskey="5" title="">Sign Up</a></li>
 </ul>
 </div>
 <!-- end #menu -->
-
+<?php if (isset($header)){?>
 
 <div id="header">
 <h1>The Green House</h1>
 <h2>By Free CSS Templates</h2>
 </div>    
 
-
+<?php }?>
 <!-- end #header -->
 <div id="wrapper">
 <div id="content">
@@ -46,6 +46,7 @@
 <!-- end #posts -->
 <div id="links">
 <ul>
+	<?php if(isset($archive)) {?>
 <li>
 
 
@@ -58,7 +59,7 @@
 <li><a href="#">November 2006</a> <i>(30)</i></li>
 <li><a href="#">October 2006</a> <i>(31)</i></li>
 </ul>
-
+<?php } ?>
 </li>
 <li>
 <h2>Categories</h2>

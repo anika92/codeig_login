@@ -22,6 +22,8 @@ class Welcome extends CI_Controller {
 		$data=array();
 		$data['maincontent']=$this->load->view('home_message','',true);
 		$data['title']="blog";	
+		  $data['header']='true';
+	$data['archive']='true';
 		$this->load->view('home',$data);
 	}
 	public function gallery()
@@ -29,8 +31,10 @@ class Welcome extends CI_Controller {
 		$data=array();
 		$data['maincontent']=$this->load->view('gallery','',true);
 				$data['title']="photos";
+				 $data['header']='true';
 		$this->load->view('home',$data);
 	}
+	
 }
 
 /* End of file welcome.php */

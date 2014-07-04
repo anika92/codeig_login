@@ -1,3 +1,4 @@
+        
 <div class="post">
         <h2 class="title">Welcome to The Green House!</h2>
         <div class="story">
@@ -15,7 +16,7 @@
         Comments</a></p>
         </div>
         </div>
-        
+        <div class="post">
         <h2 class="title">A Few Examples of Common Tags</h2>
         <div class="story">
         <p><strong></strong>This is an example of a paragraph
