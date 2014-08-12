@@ -2,30 +2,26 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <!-- Design by Free CSS Templates http://www.freecsstemplates.org Released for free under a Creative Commons Attribution 2.5 License -->
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title><?php echo $title;?></title>
-
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="default.css" rel="stylesheet" type="text/css" />
-</head>
-
-<ht<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>the art blog, free css template</title>
+<title><?php echo $title;?></title>
 <meta name="keywords" content="free css template, the art blog, black, dark gray" />
 <meta name="description" content="The Art Blog is a free CSS template, 2-column blog style layout" />
 <link href="<?php echo base_url(); ?>css/default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="<?php echo base_url();?>scripts/country.js"></script>
+<script type="text/javascript" src="<?php echo  base_url();?>scripts/jsval.js"></script>
+
 </head>
 <body>
 <div id="menu">
 <ul>
-    <li class="active"><a href="<?php echo base_url(); ?>index.php/welcome/index.jsp" accesskey="1" title="">Blog</a></li>
-<li><a href="<?php echo base_url(); ?>index.php/welcome/gallery.jsp" accesskey="2" title="">Photos</a></li>
+    <li class="active"><a href="<?php echo base_url(); ?>welcome/index.jsp" accesskey="1" title="">Blog</a></li>
+<li><a href="<?php echo base_url();?>welcome/gallery.jsp" accesskey="2" title="">Photos</a></li>
 <li><a href="#" accesskey="3" title="">Links</a></li>
-<li><a href="#" accesskey="4" title="">About</a></li>
-<li><a href="<?php echo base_url(); ?>index.php/login/sign_up.jsp" accesskey="5" title="">Sign Up</a></li>
+<li><a href="<?php echo base_url();?>login/user_login.jsp" accesskey="5" title="">login</a></li>
+<li><a href="<?php echo base_url();?>login/sign_up.jsp" accesskey="5" title="">Sign Up</a></li>
+
+</ul>
 </ul>
 </div>
 <!-- end #menu -->
